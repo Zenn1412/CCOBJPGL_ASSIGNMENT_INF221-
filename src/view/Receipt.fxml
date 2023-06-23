@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#386c98" height="562.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbd914" height="343.0" layoutX="25.0" layoutY="157.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <ImageView fitHeight="108.0" fitWidth="101.0" layoutX="158.0" layoutY="-11.0">
+         <image>
+            <Image url="@../images/ikea_receipt.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="236.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="319.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="34.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY / Item Name">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="qty1" layoutX="32.0" layoutY="207.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label fx:id="product1" layoutX="88.0" layoutY="207.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="price1" layoutX="236.0" layoutY="207.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount1" layoutX="319.0" layoutY="207.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty2" layoutX="32.0" layoutY="235.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty3" layoutX="32.0" layoutY="263.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="product2" layoutX="88.0" layoutY="235.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="product3" layoutX="88.0" layoutY="263.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="price2" layoutX="236.0" layoutY="235.0" prefHeight="7.0" prefWidth="37.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="price3" layoutX="236.0" layoutY="263.0" prefHeight="7.0" prefWidth="37.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount2" layoutX="319.0" layoutY="235.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount3" layoutX="319.0" layoutY="263.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="150.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total amount to pay:">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+      <Label fx:id="total" layoutX="319.0" layoutY="308.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="92.0" layoutY="43.0">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="49.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="====================================">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank You for Shopping with us!">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="104.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please buy again soon">
+         <font>
+            <Font name="Monospaced Bold" size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
